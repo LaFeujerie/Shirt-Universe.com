@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Shirt-Universe</title>
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700|Roboto:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/zbcanvas.js"></script>
+        <script src="js/jquery.easing.js"></script>
+        <script src="js/fn.js"></script>
+        <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <script type="text/javascript">
+            // Clock settings
+            var Counter_Settings = {
+                startdate : "8 June 2016 00:00:00 GMT",  // Date the countdown started
+                enddate: "31 July 2016 00:00:00 GMT",    // Countdown end date
+                callback  : function(){
+                    // script to run when countdown is complete (optional)
+                }
+            };
+        </script>
+        
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="preloader-top"></div>
+            <div class="preloader-fill"></div>
+            <div class="preloader-bottom"></div>
+        </div>
+        
+        <div class="dark-start bg">
+            <!-- Preload the images used on the page. -->
+            <img src="img/bg.jpg" alt="" />
+            <img src="img/circle_off.png" alt="" />
+            <img src="img/glow.png" alt="" />
+            <img src="img/social_bg.png" alt="" />
+            <img src="img/input.png" alt="" />
+        </div>
+        
+        <div class="dark-start">
+            <!-- Logo -->
+            <br /><br />
+            <center><img src="img/logo.png" height="200" width="200"/></center>
+            <!-- Sub Logo Text -->
+            <p class="under-const">Le site est en cours de réalisation</p>
+            <p class="under-const-sub">Nous vous remercions de bien vouloir patienter jusqu'a la fin du décompte. </p>
+        </div>
+        
+        <!-- Counter -->
+        <div class="clockworks">
+            <div class="clock"><div class="c-top dark-start"></div><div class="c dark-start"></div><canvas id="canvas-d"></canvas><p id="c-d">365</p><span>Days</span></div>
+            <div class="clock"><div class="c-top dark-start"></div><div class="c dark-start"></div><canvas id="canvas-h"></canvas><p id="c-h">24</p><span>Hours</span></div>
+            <div class="clock"><div class="c-top dark-start"></div><div class="c dark-start"></div><canvas id="canvas-m"></canvas><p id="c-m">60</p><span>Minutes</span></div>
+            <div class="clock"><div class="c-top dark-start"></div><div class="c dark-start"></div><canvas id="canvas-s"></canvas><p id="c-s">60</p><span>Seconds</span></div>
+        </div>
+
+        <!-- Subscribe -->
+            <div class="subscribe">
+                <input type="email" name="" value="" placeholder="Met ton email ici. On ne spam jamais." />
+                <button class="btn btn-primary" id="subscribe"><span>Abonne toi</span></button>
+            </div>
+        <div class="dark-start">
+            <!-- Social Buttons -->
+            <div class="social">
+                <a href="#facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#email"><i class="fa fa-envelope-o"></i></a>
+            </div>
+            
+            
+        </div>
+        <br />
+        <footer>
+            <center><p>&copy; Site réalisé par <a href="http://julien-dev.fr" target="blank">Julien-Dev</a></p></center>
+        </footer>
+        
+    </body>
+</html>
